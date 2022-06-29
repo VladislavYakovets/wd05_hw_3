@@ -115,7 +115,7 @@ $array6 = [2,6,
 ];
 foreach ($array6 as $key => $item){
   if (is_array($item) == true){
-      echo 'Является двумернымммм';
+      echo 'Является двумерным';
       $arrayDouble = true;
       break;
   }
